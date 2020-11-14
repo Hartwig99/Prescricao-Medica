@@ -1,0 +1,70 @@
+
+
+.image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    
+}
+
+.ajustes {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 17px;
+    color: honeydew;
+}
+
+.botao {
+    font-size: 20px;
+    width: 160px;
+    margin-right: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.texto {
+    width: 400px;
+    height:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: justify;
+    color: rgb(10, 63, 26);
+    position: relative;;
+    display: flex;
+}
+
+.divisor {
+
+    margin-top: 40px;
+}
+
+.adicionar {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.editar {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.excluir {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-bottom: 3px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: black;
+    
+}
+
+  

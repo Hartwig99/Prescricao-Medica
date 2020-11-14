@@ -1,0 +1,24 @@
+body{
+    background: -webkit-linear-gradient(left, #0e3519, #89d48fe7);
+}
+
+.formulario {
+    margin-top: 100px;
+    margin-right: 150px;
+    width: 75%;  
+    color: aliceblue; 
+    position: relative;
+    float: right;
+}
+
+.divisor {
+
+    margin-top: 30px;
+}
+
+.ajustes{
+
+    margin-top: 60px;
+    color: aliceblue;
+}
+

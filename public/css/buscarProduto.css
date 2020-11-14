@@ -1,0 +1,37 @@
+.formulario {
+    width: 75%;
+    margin-top: 100px;
+    margin-right: 150px;
+    float: right;
+}
+
+.texto {
+    width: 600px;
+    height:auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: right;
+    color: rgb(10, 63, 26);
+    position: relative;;
+    
+}
+
+h1{
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.divisor {
+    margin-bottom: 40px;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.ajuste{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
