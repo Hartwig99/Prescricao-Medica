@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use  App\Via;
 
-class ControladorPrescrisao extends Controller
+class ControladorBuscarVia extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +14,9 @@ class ControladorPrescrisao extends Controller
      */
     public function index()
     {
-        return view('cadastros.prescricao');
+        $vias = Via::paginate(10);
+        return view('inicial.buscarVia', compact('vias'));
+
     }
 
     /**

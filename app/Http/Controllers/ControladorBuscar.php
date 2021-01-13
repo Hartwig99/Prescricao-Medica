@@ -16,7 +16,7 @@ class ControladorBuscar extends Controller
     public function index()
     {
         //$materials = Material::all();
-        $materials = Material::paginate(10);
+        $materials = Material::paginate(5);
         return view('inicial.buscarMaterial', compact('materials'));
 
         
@@ -26,13 +26,12 @@ class ControladorBuscar extends Controller
 
         $filters = $request->all();
 
-        $materials = $this->repository->search($request->filter);
+        $materials = Material::where('idmaterial', 'LIKE', "%{$request->search}%")
+        ->orWhere('nome_material', 'LIKE', "%{$request->search}%")
+       ->paginate(5);
+        return view('inicial.buscarMaterial', compact('materials'));
 
-        $materials = Material::paginate(10);
-        return view('inicial.buscarMaterial', [
-            'materials' => $materials,
-            'filters' => $filters,
-            ]);
+      
     }
 
     /**

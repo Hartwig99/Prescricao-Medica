@@ -9,6 +9,7 @@ class Material extends Model
 {
     //
     public $timestamps = false;
+    protected $table = 'materials';
     protected $primaryKey = 'idmaterial';
 
     public function search($filter){
@@ -21,5 +22,11 @@ class Material extends Model
         ->paginate();
 
         return $results;
+    }
+
+    public function procedimentos(){
+
+        return $this->belongsToMany("App\Procedimento", "item_materials")->withPivot('quantidade');;
+
     }
 }

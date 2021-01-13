@@ -15,7 +15,7 @@
   --red: #e3342f;
   --orange: #f6993f;
   --yellow: #ffed4a;
-  --green: #38c172;
+  --green: #170c61;
   --teal: #4dc0b5;
   --cyan: #6cb2eb;
   --white: #fff;
@@ -23,7 +23,7 @@
   --gray-dark: #343a40;
   --primary: #3490dc;
   --secondary: #6c757d;
-  --success: #38c172;
+  --success: #170c61;
   --info: #6cb2eb;
   --warning: #ffed4a;
   --danger: #e3342f;
@@ -2749,29 +2749,29 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #38c172;
-  border-color: #38c172;
+  background-color: #170c61;
+  border-color: #170c61;
 }
 
 .btn-success:hover {
   color: #fff;
-  background-color: #2fa360;
-  border-color: #2d995b;
+  background-color:#7db3d6;
+  border-color:#7db3d6;
 }
 
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #2fa360;
-  border-color: #2d995b;
+  background-color: #7db3d6;
+  border-color:#7db3d6;
   box-shadow: 0 0 0 0.2rem rgba(86, 202, 135, 0.5);
 }
 
 .btn-success.disabled,
 .btn-success:disabled {
   color: #fff;
-  background-color: #38c172;
-  border-color: #38c172;
+  background-color: #7db3d6;
+  border-color: #7db3d6;
 }
 
 .btn-success:not(:disabled):not(.disabled):active,
@@ -5214,25 +5214,27 @@ input[type=button].btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem;
+  border-radius: 0.50rem;
+  margin-bottom: 10%;
+  margin-left: 10%;
 }
 
 .page-link {
   position: relative;
   display: block;
   padding: 0.5rem 0.75rem;
-  margin-left: -1px;
+  margin-left: 5px;
   line-height: 1.25;
-  color: #3490dc;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  color:#dee2e6;
+  background-color: #170c61;
+  border: 1px solid black;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #1d68a7;
+  color:  #E7F715;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #03b3df;
   border-color: #dee2e6;
 }
 
@@ -5255,9 +5257,9 @@ input[type=button].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #3490dc;
-  border-color: #3490dc;
+  color: #E7F715;
+  background-color: #03b3df;
+  border-color: #E7F715;
 }
 
 .page-item.disabled .page-link {
@@ -6973,14 +6975,14 @@ button.bg-secondary:focus {
 }
 
 .bg-success {
-  background-color: #38c172 !important;
+  background-color: #170c61 !important;
 }
 
 a.bg-success:hover,
 a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #2d995b !important;
+  background-color: #264284 !important;
 }
 
 .bg-info {

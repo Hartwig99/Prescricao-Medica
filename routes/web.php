@@ -4,6 +4,10 @@ use App\Http\Controllers\AuthController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Exame;
+use App\Medicamento;
+use App\Material;
+use App\Procedimento;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,20 +20,33 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/medicamentos_procedimentos', function (){
+    $medicamentos = Medicamento::with('procedimentos')->get();
+    return $medicamentos->toJson();
+});
+
+Route::get('/materials_procedimentos', function (){
+    $materials = Material::with('procedimentos')->get();
+    return $materials->toJson();
 });
 
 Route::get('home', 'homeControlador@home')->name('home');
 Route::get('inicial', 'homeControlador@inicial');
-Route::get('inicial/contato', 'homeControlador@contato');
 Route::get('inicial/sobre', 'homeControlador@sobre');
 Route::get('inicial/registro', 'homeControlador@registro');
-Route::get('inicial/consultar', 'homeControlador@consultar');
+
+
 
 
 //Prescricao
-Route::get('cadastros/prescricao', 'ControladorPrescrisao@index');
+Route::get('cadastros/prescricao', 'ControladorPrescricao@index');
+Route::get('inicial/consultar', 'ControladorConsultar@index');
+Route::get('cadastros/prescricao/novo', 'ControladorPrescricao@create'); 
+Route::post('cadastros/prescricao', 'ControladorPrescricao@store');
+Route::get('cadastros/prescricao/editar/{idprocedimento}', 'ControladorPrescricao@edit');
+Route::get('cadastros/prescricao/apagar/{idprocedimento}', 'ControladorPrescricao@destroy');
+Route::post('cadastros/prescricao/{idprocedimento}', 'ControladorPrescricao@update');
+Route::any('inicial/consultar/search', 'ControladorConsultar@search')->name('inicial.consultar.search');
 
 //Medicamentos
 Route::get('inicial/buscarMedicamento', 'ControladorBuscarMed@index');
@@ -40,6 +57,7 @@ Route::post('cadastros/medicamento', 'ControladorMedicamento@store');
 Route::get('cadastros/medicamento/editar/{idmedicamento}', 'ControladorMedicamento@edit');
 Route::get('cadastros/medicamento/apagar/{idmedicamento}', 'ControladorMedicamento@destroy');
 Route::post('cadastros/medicamento/{idmedicamento}', 'ControladorMedicamento@update');
+Route::any('inicial/buscarMedicamento/search', 'ControladorBuscarMed@search')->name('inicial.buscarMedicamento.search');
 
 //Material 
 Route::get('inicial/buscarMaterial', 'ControladorBuscar@index');
@@ -52,14 +70,22 @@ Route::get('cadastros/material/apagar/{idmaterial}', 'ControladorMaterial@destro
 Route::post('cadastros/material/{idmaterial}', 'ControladorMaterial@update');
 
 //Via
+Route::get('inicial/buscarVia', 'ControladorBuscarVia@index');
 Route::get('cadastros/via', 'ControladorVia@index'); 
-
+Route::get('cadastros/via/novo', 'ControladorVia@create'); 
+Route::post('cadastros/via', 'ControladorVia@store');
+Route::get('cadastros/via/editar/{idvias}', 'ControladorVia@edit');
+Route::get('cadastros/via/apagar/{idvias}', 'ControladorVia@destroy');
+Route::post('cadastros/via/{idvias}', 'ControladorVia@update');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-
+Route::get('inicial/buscarVia', 'ControladorVia@index');
 Auth::routes();
-
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+//Contato
+Route::post('inicial/contato/enviar', 'ControladorContato@enviaContato');
+Route::get('inicial/contato', 'homeControlador@contato');

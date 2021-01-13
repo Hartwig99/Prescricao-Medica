@@ -1,45 +1,45 @@
-.formulario{
-    display: grid;
-    margin-top: 100px; 
-    width: 80%;
-    float: right;
-    padding-right: 60px;
-    margin-right: 30px;
-    font-size: 20px;
+.ajuste{
+    display: flex;
+    margin-top: 10%; 
+    margin-right: 10%;
+    float: left;
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #170c61 ;
 }
 
 h2 {
     color:white;
-    background: -webkit-linear-gradient(left, #0e3519, #89d48fe7);;
+    background: -webkit-linear-gradient(left, #170c61, #2f52c4e7);
+    border-radius: 10px;
 }
 
 .titulo{
-    
+    width: 100%;
+    height: 10%;
     text-align: center;
-}
-
-.image{
-    width: 350px;
-    height: 250px;
-}
-
-.divisor{
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .botao {
     font-size: 20px;
-    width: 160px;
-    margin-right: 10px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    margin-left: 20px;
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 15px;
     text-align: center;
 }
 
 .adicionar {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-left: 10px;
+}
+
+body{
+    background-image: url("/img/fundo2.png");
+    background-repeat: repeat;
+    
 }

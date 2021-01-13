@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Material;
+use App\Unidade;
 
 class ControladorMaterial extends Controller
 {
@@ -14,7 +15,9 @@ class ControladorMaterial extends Controller
      */
     public function index()
     {
-        return view('cadastros.material');
+        $unidades = Unidade::all();
+        $materials = Material::all();
+        return view('cadastros.material', compact('materials','unidades'));
     }
 
     
@@ -37,6 +40,7 @@ class ControladorMaterial extends Controller
      */
     public function store(Request $request)
     {
+        
         $materials = new Material();
         $materials->idmaterial = $request->input('idmaterial');
         $materials->nome_material = $request->input('nome_material');

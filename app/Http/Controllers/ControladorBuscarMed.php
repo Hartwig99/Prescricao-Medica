@@ -14,11 +14,22 @@ class ControladorBuscarMed extends Controller
      */
     public function index()
     {
-        $medicamentos = Medicamento::paginate(10);
+        $medicamentos = Medicamento::paginate(8);
         return view('inicial.buscarMedicamento', compact('medicamentos'));
     }
 
-   
+    public function search(Request $request){
+
+        $filters = $request->all();
+
+        $medicamentos = Medicamento::where('idmedicamento', 'LIKE', "%{$request->search}%")
+        ->orWhere('nome_medicamento', 'LIKE', "%{$request->search}%")
+        ->paginate(5);
+
+     return view('inicial.buscarMedicamento', compact('medicamentos'));
+
+      
+    }
     /**
      * Show the form for creating a new resource.
      *

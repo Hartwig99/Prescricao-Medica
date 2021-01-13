@@ -9,12 +9,12 @@
     <meta name="author" content="">
     <title>Prescricao Medica Eletronica</title>
     <link href="{{ asset('css/cabecalho.css')}}"  rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="{{asset('css/app.css')}}"  rel="stylesheet"}}>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" ></script>
     <!-- Bootstrap core CSS -->
   <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -23,10 +23,15 @@
 
     <meta charset="utf-8">
 
-
+    <link
+    rel="stylesheet"
+    href="{{ asset('css/responsive.css')}}"
+    media="screen and (max-width: 768px)"
+  />
 </head>
 
 <body>
+
 
   <div class="d-flex toggled" id="wrapper">
 
@@ -125,44 +130,45 @@
 
                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none ">
                                       @csrf
+
                                   </form>
                               </div>
                           </li>
                       @endguest
                     </ul>
+                    
                   </nav>
 
-         @yield('conteudo')
+                  @yield('conteudo')
+
+                  
         </div>
-
-        
-<!-- Bootstrap core JavaScript -->
-<script src="/vendor/jquery/jquery.min.js"></script>
-<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-      
-
-      <!-- Menu Toggle Script -->
-      <script>
-        $("#menu-toggle").click(function(e) {
-          e.preventDefault();
-          $("#wrapper").toggleClass("toggled");
-        });
-      </script>
+  </div>   
        
-    </div>
-    
-    <footer class="bg-dark rodape">
-        <div>
-          <h6> Celular +55(63)992677182 </h6>
-          <h6> ivanhb999@gmail.com </h6>
-          <span>Copyright &copy; Prescricao Medica Eletronica 2020</span>
-        </div>
-    </footer>
-   
-  </body>
+        
+      <!-- Bootstrap core JavaScript -->
+      <script src="/vendor/jquery/jquery.min.js"></script>
+      <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>      
 
-  
+            <!-- Menu Toggle Script -->
+            <script>
+              $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+              });
+            </script>
+       
+       
+        <footer class=" bg-dark">
+          <br>
+          <h6 style="color:white; font-size: 10px" > Celular +55(63)992677182 </h6>
+          <h6 style="color:white; font-size: 10px"> ivanhb999@gmail.com </h6>
+          <span style="color:white;" >Copyright &copy; Prescricao Medica Eletronica 2020</span>
+        </footer>
+     
+    
+  </body>
+ 
 </html>
 
 

@@ -1,19 +1,35 @@
 body{
-    background: -webkit-linear-gradient(left, #0e3519, #89d48fe7);
+    background: -webkit-linear-gradient(left, #170c61, #2f52c4e7);
 }
 
 .formulario {
+    width: 70%;
+    height:auto;
+    margin-left: 20%;
     margin-top: 100px;
-    margin-right: 150px;
-    width: 75%;  
-    color: aliceblue; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
     position: relative;
-    float: right;
+    color:aliceblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    float: left;
 }
 
 .divisor {
-
+    text-align: justify;
+    color:aliceblue;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    float: left;
     margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 30px;
+    margin-bottom: 10%;
+    width: 30%;
 }
 
 .ajustes{
@@ -22,3 +38,50 @@ body{
     color: aliceblue;
 }
 
+.data-filtro{
+    display: flex;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.content{display: flex; margin:auto;}
+
+.div-tabela{
+    margin-top: 20%;
+}
+
+.tabela{
+    width: 90%; 
+    text-align: center;
+    color: aliceblue;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+.tabela tbody tr:nth-child(2n){background: rgb(47, 14, 233);}
+.tabela th , .tabela td{padding: 6px 0; border: 2px solid black ; }
+
+
+@media screen and (max-width: 460 px) {
+
+    .content{width: 60%;}
+    .tabela thead{display: none;}
+    .tablea tbody td{display: flex; flex-direction: column;}
+    
+} 
+
+@media only screen and (min-width: 1200px){
+    .content{width: 100%;}
+    .tabela tbody tr td:nth-child(1){width: 10%;}
+    .tabela tbody tr td:nth-child(2){width: 10%;}
+    .tabela tbody tr td:nth-child(3){width: 10%;}
+    .tabela tbody tr td:nth-child(4){width: 8%;}
+    .tabela tbody tr td:nth-child(5){width: 10%;}
+    .tabela tbody tr td:nth-child(6){width: 30%;}
+    .tabela tbody tr a:nth-child(1){width: 26%;}
+    
+
+}

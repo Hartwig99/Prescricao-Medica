@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <title>- Registro de Usuario - Prescrição Medica</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="{{ asset('css/app.css')}}"  rel="stylesheet">
         <link href="{{ asset('css/registro.css')}}"  rel="stylesheet">
         
     </head>
@@ -41,6 +41,9 @@
                         <div class="col-sm-6 mb-3 mb-sm-0">
                           <label for="senha">Senha</label>
                           <input type="password" class="form-control form-control-user" id="senha" placeholder="Senha">
+                          <small id="passwordHelpInline" class="text-muted">
+                            Deve ter entre 8 e 20 caracteres.
+                          </small>
                         </div>
                         <div class="col-sm-6">
                             <label for="senha">Confirmar Senha</label>

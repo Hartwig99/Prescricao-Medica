@@ -1,14 +1,15 @@
 body{
-    background: -webkit-linear-gradient(left, #0e3519, #89d48fe7);
+    background: -webkit-linear-gradient(left, #170c61, #2f52c4e7);
 }
 .contact-form{
-    background: rgb(177, 252, 177);
-    margin-right: 330px;
-    margin-top: 100px;
-    width: 900px;
-    height: 500px;
+    background:#7db3d6;
+    margin-left: 300px;
+    margin-right: 30px;
+    margin-top: 10%;
+    width: 80%;
+    height: 600px;
     float: right;
-    
+    margin-bottom: 10%;
 }
 .contact-form .form-control{
     border-radius:1rem;
@@ -34,14 +35,14 @@ body{
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 40px;
     text-align: center;
-    color: #01160a;
+    color: #170c61;
 }
 .contact-form .btnContact {
     width: 50%;
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
-    background: #05330b;
+    background:#170c61;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
@@ -52,7 +53,7 @@ body{
     border-radius: 1rem;
     padding: 1.5%;
     color: #fff;
-    background-color: #011806;
+    background-color:#170c61;
     border: none;
     cursor: pointer;
 }

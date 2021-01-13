@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Via;
 
 class ControladorVia extends Controller
 {
@@ -13,7 +14,8 @@ class ControladorVia extends Controller
      */
     public function index()
     {
-        return view('cadastros.via');
+        $vias = Via::all();
+        return view('cadastros.via', compact('vias'));
     }
 
     /**
@@ -23,7 +25,7 @@ class ControladorVia extends Controller
      */
     public function create()
     {
-        //
+        return view('cadastros.novaVia');
     }
 
     /**
@@ -34,7 +36,13 @@ class ControladorVia extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $vias = new Via();
+        $vias->idvias = $request->input('idvias');
+        $vias->nome = $request->input('nome');
+        $vias->sigla = $request->input('sigla');
+        $vias->observacao = $request->input('observacao');
+        $vias->save();
+        return redirect('/inicial/buscarVia');
     }
 
     /**
@@ -43,7 +51,7 @@ class ControladorVia extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($idvias)
     {
         //
     }
@@ -54,9 +62,13 @@ class ControladorVia extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit($idvias)
     {
-        //
+        $vias = Via::find($idvias);
+        if(isset($vias)){
+            return view('cadastros.editarVia', compact('vias'));
+        }
+        return redirect('inicial/buscarVia');
     }
 
     /**
@@ -66,9 +78,19 @@ class ControladorVia extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $idvias)
     {
-        //
+        $vias = Via::find($idvias);
+        if(isset($vias)){
+            $vias->idmaterial = $request->input('idvias');
+            $vias->nome_material = $request->input('nome');
+            $vias->sigla = $request->input('sigla');
+            $vias->observacao = $request->input('observacao');
+            $vias->save();
+            
+    
+        }
+        return redirect('/cadastros/via');
     }
 
     /**
@@ -77,8 +99,13 @@ class ControladorVia extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($idvias)
     {
-        //
+        $vias = Via::find($idvias);
+        if(isset($vias)){
+            $vias->delete();
+        }
+        return redirect('inicial/buscarVia');
+    
     }
 }

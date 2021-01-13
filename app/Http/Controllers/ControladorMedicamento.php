@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Medicamento;
-
+use App\Unidade;
 
 class ControladorMedicamento extends Controller
 {
@@ -15,7 +15,9 @@ class ControladorMedicamento extends Controller
      */
     public function index()
     {
-        return view('cadastros.medicamento');
+        $unidades = Unidade::all();
+        $medicamentos = Medicamento::all();
+        return view('cadastros.medicamento', compact('medicamentos','unidades'));
     }
 
     /**
@@ -25,7 +27,7 @@ class ControladorMedicamento extends Controller
      */
     public function create()
     {
-        //
+        return view('cadastros.novoMedicamento');
     }
 
     /**
@@ -44,7 +46,7 @@ class ControladorMedicamento extends Controller
         $medicamentos->quantidade = $request->input('quantidade');
         $medicamentos->valor = $request->input('valor');
         $medicamentos->save();
-        return redirect('/inicial/buscarProduto');
+        return redirect('/inicial/buscarMedicamento');
     }
 
     /**
@@ -67,37 +69,37 @@ class ControladorMedicamento extends Controller
     public function edit($idmedicamento)
     {
         $medicamentos = Medicamento::find($idmedicamento);
-        if(isset($materials)){
-            return view('cadastros.editarMedicamento', compact('materials'));
+        if(isset($medicamentos)){
+            return view('cadastros.editarMedicamento', compact('medicamentos'));
         }
-        return redirect('inicial/buscarProduto');
+        return redirect('inicial/buscarMedicamento');
 
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
+     // Update the specified resource in storage.
+     
+    public function update(Request $request, $idmedicamento)
     {
-        //
-    }
+        $medicamentos =  Medicamento::find($idmedicamento);
+        if(isset($medicamentos)){
+            $medicamentos->idmedicamento = $request->input('idmedicamento');
+            $medicamentos->nome_medicamento = $request->input('nome_medicamento');
+            $medicamentos->descricao = $request->input('descricao');
+            $medicamentos->unidade = $request->input('unidade');
+            $medicamentos->quantidade = $request->input('quantidade');
+            $medicamentos->valor = $request->input('valor');
+            $medicamentos->save();
+        }
+        return redirect('inicial/buscarMedicamento');
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+    }
+ 
     public function destroy($idmedicamento)
     {
         $medicamentos = Medicamento::find($idmedicamento);
             if(isset($medicamentos)){
                 $medicamentos->delete();
             }
-            return redirect('inicial/buscarProduto');
+            return redirect('inicial/buscarMedicamento');
     }
 }

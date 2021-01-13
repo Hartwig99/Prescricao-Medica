@@ -4,16 +4,16 @@ h1 {
   margin-bottom: 80px;  
   text-shadow: black;
   font-family: Arial, Helvetica, sans-serif;
-  color:  rgb(48, 170, 0);
+  color: #170c61;
 }
 
 body{
-  background: -webkit-linear-gradient(left, #0e3519, #89d48fe7);
+  background: -webkit-linear-gradient(left, #170c61, #2f52c4e7);
 }
 
 a {
   font-size: 20px;
-  color: rgb(2, 51, 3);
+  color:#190982;
     margin: 25px;
 }
 
@@ -25,4 +25,5 @@ img{
 
 .botao{
   width: 160px;
+  background-color: #170c61;
 }

@@ -1,0 +1,79 @@
+.formulario {
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 10%;
+    display: flex;
+}
+
+.texto {
+    width: 70%;
+    height:auto;
+    margin-top: 100px;
+    margin-left: 40%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color:#170c61;
+    position: relative;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    float: left;
+    
+}
+
+.image{
+
+    width: 250px;
+    height: 250px;
+    
+}
+
+h1{
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #170c61;
+}
+
+.divisor {
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    color: #170c61;
+}
+
+.ajuste{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.content{display: flex; margin:auto;}
+
+.tabela{width: 100%; text-align: center;}
+.tabela tbody tr:nth-child(2n){background: rgb(149, 184, 207);}
+.tabela th , .tabela td{padding: 7px 0;}
+
+@media screen and (max-width: 460 px) {
+
+    .content{width: 70%;}
+    .tabela thead{display: none;}
+    .tablea tbody td{display: flex; flex-direction: column;}
+    
+} 
+
+@media only screen and (min-width: 1200px){
+    .content{width: 100%;}
+    .tabela tbody tr td:nth-child(1){width: 10%;}
+    .tabela tbody tr td:nth-child(2){width: 20%;}
+    .tabela tbody tr td:nth-child(3){width: 25%;}
+    .tabela tbody tr td:nth-child(4){width: 5%;}
+    .tabela tbody tr td:nth-child(5){width: 5%;}
+    .tabela tbody tr td:nth-child(6){width: 10%;}
+    .tabela tbody tr a:nth-child(1){width: 20%;}
+    
+}
