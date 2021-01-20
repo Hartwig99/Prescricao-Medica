@@ -10,7 +10,7 @@
     <title>Prescricao Medica Eletronica</title>
     <link href="{{ asset('css/cabecalho.css')}}"  rel="stylesheet">
     <link href="{{asset('css/app.css')}}"  rel="stylesheet"}}>
-    
+    <link rel="sortcut icon" href="medica Eletronica.png" type="img/png" />;
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
