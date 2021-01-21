@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <title>- Login Prescrição Medica</title>
+  <title>- Login Prescrição Médica</title>
   <link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
@@ -43,7 +43,7 @@
                 <div class="p-5">
                   <div class="text-center">
                     <img src="/img/login.png"/>
-                    <h1>Bem vindo a Prescrição Medica Eletronica </h1>
+                    <h1>Bem vindo a Prescrição Médica Eletrônica </h1>
                   </div>
                   
                   {{-- action="{{route('admin.login.do')}} --}}
