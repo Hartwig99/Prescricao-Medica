@@ -11,7 +11,7 @@
    @csrf
     
     <div class=" form-row texto ">
-        <h3>Listas de Materiais Descartaveis</h3>
+        <h3>Listas de Materiais Descartáveis</h3>
 
         <img class="image-material" src="/img/material.jpg"/>
 
@@ -21,14 +21,14 @@
                     a Lista de Preços de Medicamentos da CMED alterou o seu formato. A partir de agora os medicamentos estão ordenados por princípio ativo, 
                     forma farmacêutica e concentração, assim como a Lista para Compras Públicas, tornando mais fácil a consulta e a comparação de preços.</p>
                 </div>
-            <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informacoes! Acessar Site Simpro</a>
+            <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informações! Acessar Site Simpro</a>
     </div> 
 
         <h1 style="display:flex; float: left; text-align: center "><img  class="image" src="/img/cadastro.png"/> Cadastro Material </h1>
         <div class="form-row bg-success cadastro">
 
             <div class="form-group col-md-6">
-                <label for="idmaterial">Codigo</label>
+                <label for="idmaterial">Código</label>
                 <input type="text" class="form-control" name="idmaterial" id="idmaterial">
             </div>
 
