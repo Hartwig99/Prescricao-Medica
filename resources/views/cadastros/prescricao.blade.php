@@ -20,35 +20,35 @@
           <input type="text" class="form-control " name="nome_completo" id="nome_completo"  required>
         </div>
         <div class="col-md-3 mb-3 margin25px">
-          <label for="pessoas_idpessoa">Codigo do paciente</label>
+          <label for="pessoas_idpessoa">Código do paciente</label>
           <div class="input-group">
             <input type="int" class="form-control " name="pessoas_idpessoa" id="pessoas_idpessoa" required>
             <div class="invalid-feedback">
-              Por favor inserir o codigo do Paciente.
+              Por favor inserir o código do Paciente.
             </div>
           </div>
         </div>
         <div class="col-md-6 mb-6">
-          <label for="convenio">Convenio</label>
+          <label for="convenio">Convênio</label>
           <input type="text" class="form-control " name="convenio" id="convenio"  required>
         </div>
         <br>
         <div class="col-md-3 mb-3 margin25px">
-          <label for="exames_idexame">Codigo do Exames</label>
+          <label for="exames_idexame">Código do Exames</label>
           <div class="input-group">
             <input type="int" class="form-control " name="exames_idexame" id="exames_idexame" required>
             <div class="invalid-feedback">
-              Por favor inserir o codigo do Exames.
+              Por favor inserir o código do Exames.
             </div>
           </div>
         </div>
         
         <div class="col-md-4 mb-4 separar">
-          <label for="idprocedimento">Codigo da Prescrição</label>
+          <label for="idprocedimento">Código da Prescrição</label>
           <div class="input-group">
             <input type="int" class="form-control " name="idprocedimento" id="idprocedimento" required>
             <div class="invalid-feedback">
-              Por favor inserir o codigo da Prescrição.
+              Por favor inserir o código da Prescrição.
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
           <div class="col-md-3 mb-3  ">
             <label for="unidade">Unidade</label>
             <select  name="unidade" class="form-control input sm " id="unidade" required>     
-              <option selected disabled value="">Selecione...</option>
+              <option selected disabled value="">Selecione a unidade...</option>
               @foreach ($unidades as $unidade)
               <option value="{{$unidade->idunidades}}">{{$unidade->nome}}</option>
               @endforeach
@@ -84,7 +84,7 @@
           <div class="col-md-3 mb-3">
             <label for="material">Descrição</label>
             <select  name="material" class="form-control input sm " id="material" required>     
-              <option selected disabled value="">Selecione...</option>
+              <option selected disabled value="">Selecione o nome do material...</option>
               @foreach ($materials as $material)
               <option value="{{$material->idmaterial}}">{{$material->nome_material}}</option>
               @endforeach
@@ -107,7 +107,7 @@
         <div class="col-md-3 mb-3">
           <label for="unidade">Unidade</label>
             <select  name="unidade" class="form-control input sm " id="unidade" required>     
-              <option selected disabled value="">Selecione...</option>
+              <option selected disabled value="">Selecione a unidade...</option>
               @foreach ($unidades as $unidade)
               <option value="{{$unidade->idunidades}}">{{$unidade->nome}}</option>
               @endforeach
@@ -117,7 +117,7 @@
         <div class="col-md-3 mb-3">
           <label for="medicamento">Descrição</label>
           <select class="custom-select " id="medicamento" name="medicamento" required>
-            <option selected disabled value="">Selecione...</option>
+            <option selected disabled value="">Selecione o nome do medicamento...</option>
             @foreach ($medicamentos as $medicamento)
             <option value="{{$medicamento->idmedicamento}}">{{$medicamento->nome_medicamento}}</option>
             @endforeach
@@ -127,7 +127,7 @@
         <div class="col-md-3 mb-3">
           <label for="vias_idvias">VIA</label>
           <select class="custom-select " id="vias_idvias" name="vias_idvias" required>
-            <option selected disabled value="">Selecione...</option>
+            <option selected disabled value="">Selecione a via administrada...</option>
             @foreach ($vias as $via)
             <option value="{{$via->idvias}}">{{$via->sigla}}</option>
             @endforeach
@@ -144,7 +144,7 @@
       </div>
 
       <div class="col-md-10 mb-10">
-        <label for="nome_enfermeiro"> Nome do Enfermeiro Responsavel </label>
+        <label for="nome_enfermeiro"> Nome do Enfermeiro Responsável </label>
         <input type="text" class="form-control " name="nome_enfermeiro" id="nome_enfermeiro"  required>
       </div>
 
@@ -153,7 +153,7 @@
         <div class="input-group">
           <input type="int" class="form-control " name="medicos_idmedico" id="medicos_idmedico" required>
           <div class="invalid-feedback">
-            Por favor inserir o codigo do Médico Realizante.
+            Por favor inserir o código do Médico Realizante.
           </div>
         </div>
         <button class="btn btn-success separar" onclick="return confirm('Deseja realmente realizar cadastro da prescrição ?');"  type="submit">REGISTRAR DADOS</button> 
