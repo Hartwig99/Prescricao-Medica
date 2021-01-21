@@ -13,7 +13,7 @@
 
         <div class=" form-row texto ">
            
-            <h3>Listas de preços de medicamentos</h3>
+            <h3>Listas de preços de Medicamentos</h3>
 
             <img style="margin-left: 15%"  src="/img/simpro.jpg"/><br>
 
@@ -22,7 +22,7 @@
                 a Lista de Preços de Medicamentos da CMED alterou o seu formato. A partir de agora os medicamentos estão ordenados por princípio ativo, 
                 forma farmacêutica e concentração, assim como a Lista para Compras Públicas, tornando mais fácil a consulta e a comparação de preços.</p>
             </div>   
-                <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informacoes! Acessar Site Simpro</a>
+                <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informações! Acessar Site Simpro</a>
             </div> 
 
             <h1 style="display:flex; float: left; text-align: center "> Cadastro Medicamento<img class="image" src="/img/cadastro.png"/></h1> 
@@ -30,7 +30,7 @@
             <div class="form-row bg-success cadastro" >
 
                 <div class="form-group col-md-6">
-                    <label for="idmedicamento">Codigo</label>
+                    <label for="idmedicamento">Código</label>
                     <input type="text" class="form-control" name="idmedicamento" id="idmedicamento">
                 </div>
 
