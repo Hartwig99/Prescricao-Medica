@@ -8,14 +8,14 @@
 
       
         <div class="ajustes ">
-          <h1 >Faça sua Prescrições Medicas Eletronicamente</h1>
+          <h1 >Faça sua Prescrições Médicas Eletrônicamente</h1>
 
           <img class="img-fluid px-3 px-sm-6 mt-4 mb-6" style="width: 45rem;" src="img/prescricao.png" alt="">
 
-          <h3> O que é uma Prescrição Medica ?</h3>
+          <h3> O que é uma Prescrição Médica ?</h3>
           <br>
           <p>
-          Uma prescrição é uma rotina de cuidados com a saúde, implementadas por um médico ou outro profissional de saúde qualificado, voltadas para um paciente em específico. O termo geralmente se refere à 
+          Uma prescrição é uma rotina de cuidados com a saúde, implementada por um médico ou outro profissional de saúde qualificado, voltada para um paciente em específico. O termo geralmente se refere à 
           autorização por escrito de um médico para um paciente comprar um medicamento de um farmacêutico.</p>
           <a target="_blank" rel="nofollow" href="https://undraw.co/">Verifique o manual do nosso site ou qualquer coisa entre em contato &rarr;</a>
         </div>
@@ -32,8 +32,7 @@
           <p>
             Ter uma boa saúde é requisito essencial para uma vida saudável e alegre.
              A saúde traz vigor, disposição e bem-estar na rotina de uma pessoa, além de garantir mais anos de vida. 
-             Então, acompanhe as próximas dicas que farão você manter a sua saúde em dia, 
-             para aproveitar os melhores momentos ao lado de si mesmo e da sua família. Confira!.</p>
+             Então, acompanhe as próximas dicas que farão você manter sua saúde em dia e aproveitar seus  melhores momentos e da sua família.  Confira!.</p>
 
              <a href="#" class="btn btn-success">Acessar Site</a>
 
