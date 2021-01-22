@@ -29,10 +29,14 @@
         <h1> História </h1>
         <span class="vc_empty_space_inner">
             <p>Atualmente muitas empresas clínicas não dispõe de um sistema para controle e gestão na utilização de prescrever uso de medicamento e material em seres-humanos ou animais, além de não possuírem um registro de dados onde pode ser consultado e alterado dados. Com a possibilidade de trazer facilidade, agilidade e economia na execução de cadastramentos e pesquisas para a realização da prescrição dos medicamentos e materiais, percebeu-se que a empresa necessita de um software onde tem a probabilidade de melhorar sua forma de trabalho.</p>
-            <p>Esse software foi criado com intencao de ajudar a  .....</p>
-            <p>Esse software foi criado com intencao de ajudar a  .....</p>
-            <p>Esse software foi criado com intencao de ajudar a  .....</p> 
+            <p>O software IHB Prescrição Médica Eletrônica foi criado pelo Desenvolvedor Ivan Hartwig Bissoto, no qual ganhou vida no ano de 2021.</p>
+            <p>O sistema WEB surgiu de um Trabalho de Conclusão de Curso, onde foi completamentamente desenvolvido somente por uma pessoa. </p>
+          
             <h4> Conceitos</h4>
+            
+            <p>Os processos de rotinas administrativas podem trazer muitas informações importantes, para cada determinado órgão pode ser um tipo de procedimento mais complexo ou mais simples. 
+            Desse modo, o estudo realizado efetivou-se dentro de uma clínica, onde os processos são realizados para gerenciamento de medicamentos e materiais utilizados na realização dos exames e diagnóstico do paciente, 
+            no qual relata os produtos (medicamentos e materiais) utilizados no exame, além de trazer as informações de como foi utilizado o uso dos medicamentos, qual foi a quantidades utilizadas e observações analisadas na aplicação dos medicamentos.</p> 
             
         </div>        
 
