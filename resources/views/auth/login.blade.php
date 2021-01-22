@@ -15,13 +15,13 @@
                   <div class="p-5">
                     <div class="text-center">
                       <img src="/img/login.png"/>
-                      <h1>Bem vindo a Prescrição Medica Eletronica </h1>
+                      <h1><span>IHB</span> Prescrição Médica Eletrônica </h1>
                     </div>
                     <form class="user" method="POST" action="{{ route('login') }}">
                         @csrf
 
                         <div class="form-group">
-                            <label for="email" >{{ __('E-Mail ') }}</label>
+                            <label for="email" style="font-size: 20px; font-weight: bold" >{{ __('E-Mail ') }}</label>
 
                             <div class="form-group">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
@@ -36,7 +36,7 @@
 
       
                           <div class="form-group">
-                            <label for="password"  >{{ __('Password') }}</label>
+                            <label for="password" style="font-size: 20px; font-weight: bold" >{{ __('Password') }}</label>
                                 <input id="password" type="password" class="form-control form-control-user @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
