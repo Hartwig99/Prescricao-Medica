@@ -3,8 +3,19 @@ h1 {
   margin-top: 10px; 
   margin-bottom: 80px;  
   text-shadow: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Candara';
+  font-weight: bold;
   color: #170c61;
+  -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:#dce73a;
+}
+
+h1 span{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dce73a;
+  -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #170C61;
 }
 
 body{
@@ -18,12 +29,13 @@ a {
 }
 
 img{
-  width: 100px;
+  width: 200px;
   text-align: center;
   margin-top: 50px;
 }
 
 .botao{
   width: 160px;
+  font-size: 20px;
   background-color: #170c61;
 }
