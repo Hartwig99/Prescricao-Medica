@@ -14,7 +14,7 @@
                   
                   <div class="p-5">
                     <div class="text-center">
-                      <img src="/img/ihb.png"/>
+                      <img src="/img/ihb.ico"/>
                       <h1><span>IHB</span> Prescrição Médica Eletrônica </h1>
                     </div>
                     <form class="user" method="POST" action="{{ route('login') }}">
