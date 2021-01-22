@@ -10,13 +10,14 @@
 <form  action="{{ route('inicial.buscarMaterial.search')}}" method="post">	
     @csrf
     <div class="  texto ">
-        <h1>Buscar Material</h1>
+        <h1>Buscar por Materiais Cadastrados</h1>
     </div>	
     <img class="image" src="/img/material.jpg"/>
 
     <div class="divisor">
-    <h4 style="font-weight: bold"> Todos os materiais cadastrados esta disponivel na tabela abaixo: </h4>
-    <p>O material hospitalar descartável - também chamado de material de consumo hospitalar - são aqueles itens usados no dia a dia de atendimentos médicos que não podem ser reutilizados e precisam ter os estoques reabastecidos periodicamente. Tratam-se de artigos fundamentais em qualquer tipo de procedimento e, por serem usados apenas uma vez, oferecem mais segurança aos pacientes, pois afasta o risco de contaminação.</p>
+    <h4 style="font-weight: bold"> Todos os materiais cadastrados estão disponível na tabela abaixo: </h4>
+    <br>
+    <p>Os Materiais hospitalares descartáveis, também chamados de materiais de consumo hospitalar são aqueles itens usados no dia a dia de atendimentos médicos que não podem ser reutilizados e precisam ter os estoques reabastecidos periodicamente. Tratam-se de artigos fundamentais em qualquer tipo de procedimento e, por serem usados apenas uma vez, oferecem mais segurança aos pacientes, pois afasta o risco de contaminação.</p>
     <p>Não são apenas em hospitais que esses materiais se fazem necessários. Eles também devem estar presentes em postos de saúde, consultórios médicos, clínicas e em ambientes onde exista o risco de contaminação por material biológico, fungos, microorganismos e outros agentes nocivos.</p> 
     </div>
 
