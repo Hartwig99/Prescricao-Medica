@@ -10,7 +10,7 @@
     
 
     <div class=" form-group  text-center formulario ">
-        <h1>Buscar Prescrição Médica</h1>		
+        <h1>Buscar por Prescrição Médica</h1>		
         
     </div>
 
@@ -37,10 +37,10 @@
 
         <thead>
             <tr>
-                <th>Codigo da Prescrição</th>
+                <th>Código da Prescrição</th>
                 <th>Convênio</th>
-                <th>Codigo do Paciente</th>
-                <th>Codigo do Exame</th>
+                <th>Código do Paciente</th>
+                <th>Código do Exame</th>
                 <th>Data Realizada</th>
                 <th>Observação</th>
                 
@@ -70,9 +70,9 @@
     </div>
 
     <div class="card-footer divisor">
-        <a href="/cadastros/prescricao" class="btn btn-info" role="button"> Adicionar nova Prescricao </a>
+        <a href="/cadastros/prescricao" class="btn btn-info" role="button"> Adicionar Nova Prescrição </a>
 
-        <a href="#" download="prescricao.doc" class="btn btn-dark" role="button">Baixar Arquivo dados em Word</a>
+        <a href="#" download="prescricao.doc" class="btn btn-dark" role="button">Baixar dados em Arquivo formato Word</a>
     </div>
 
     </div>
