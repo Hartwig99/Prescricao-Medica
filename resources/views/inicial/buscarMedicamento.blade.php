@@ -10,13 +10,13 @@
 <form action="{{ route('inicial.buscarMedicamento.search')}}" method="post">	
 
     <div class="  texto ">
-        <h1>Buscar medicamentos</h1>	
+        <h1>Buscar por Medicamentos Cadastrados</h1>	
     </div>	
 
     <img class="image" src="/img/medicamentos.jpg"/>
     
     <div class="divisor">
-        <h4 style="font-weight: bold"> Todos os medicamentos cadastrados esta disponivel na tabela abaixo: </h4>
+        <h4 style="font-weight: bold"> Todos os Medicamentos Cadastrados estão disponíveis na tabela abaixo: </h4>
     <p>Medicamento é o produto farmacêutico, tecnicamente obtido ou elaborado com finalidade profilática, curativa, paliativa ou para fins de diagnóstico.</p>
     <p> A definição legal deixa claro o papel fundamental desse produto, que previne doenças, mantém e recupera a saúde e alivia sintomas. Por isso o Idec entende que medicamentos não podem ser vistos como bens comuns, de uso ordinário, e sim como produtos essenciais. </p> 
     </div>
@@ -35,12 +35,12 @@
         <table  class= "tabela">
             <thead>
                 <tr>
-                    <th>Codigo</th>
+                    <th>Código</th>
                     <th>Nome do produto</th>
-                    <th>descricao</th>
+                    <th>Descrição</th>
                     <th>Unidade</th>
                     <th>Quantidade</th>
-                    <th>Preco</th>
+                    <th>Preço</th>
                 </tr>
             </thead>
             <tbody>
