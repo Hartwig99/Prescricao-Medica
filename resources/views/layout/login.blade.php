@@ -43,7 +43,7 @@
                 <div class="p-5">
                   <div class="text-center">
                     <img src="/img/login.png"/>
-                    <h1>Bem vindo a Prescrição Médica Eletrônica </h1>
+                    <h1>IHB Prescrição Médica Eletrônica </h1>
                   </div>
                   
                   {{-- action="{{route('admin.login.do')}} --}}
