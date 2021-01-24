@@ -13,6 +13,9 @@ class homeControlador extends Controller
         echo "<h1>Pagina Inical</h1>";
         
     }
+      public function manual(){
+        return view('inicial.manual');
+    }
 
     public function inicial() {
         return view('inicial.index');
