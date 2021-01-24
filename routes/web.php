@@ -34,6 +34,8 @@ Route::get('home', 'homeControlador@home')->name('home');
 Route::get('inicial', 'homeControlador@inicial');
 Route::get('inicial/sobre', 'homeControlador@sobre');
 Route::get('inicial/registro', 'homeControlador@registro');
+Route::get('inicial/manual', 'homeControlador@manual');
+Route::get('inicial/perfil', 'ControladorPerfil@perfil');
 
 
 
