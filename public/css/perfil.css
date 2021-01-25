@@ -1,0 +1,29 @@
+.texto{
+
+  
+    margin-top: 120px; 
+    margin-left: 50px;
+    width: 70%;
+    height: 1100px;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+body{
+    background: -webkit-linear-gradient(left, #170c61, #2f52c4e7);
+}
+
+.espaco2{
+    width: 40%;
+    height:auto;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
