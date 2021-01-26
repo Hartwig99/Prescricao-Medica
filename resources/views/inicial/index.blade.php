@@ -8,7 +8,7 @@
 
       
         <div class="ajustes ">
-          <h1 >Faça sua Prescrições Médicas Eletrônicamente</h1>
+          <h1 >Faça sua Prescrições Médicas Eletronicamente</h1>
 
           <img class="img-fluid px-3 px-sm-6 mt-4 mb-6" style="width: 45rem;" src="img/prescricao.png" alt="">
 
@@ -22,7 +22,7 @@
         
         <div class="ajustes2 ">
 
-          <h2>SAÙDE EM DIA</h2>
+          <h2>SAÚDE EM DIA</h2>
 
           <img  class="img-fluid px-2 px-sm-4 mt-3 mb-5"style="width:150%;position:relative;top:0;bottom:0; " src="img/saude.png" alt="">
           <br>
@@ -34,7 +34,7 @@
              A saúde traz vigor, disposição e bem-estar na rotina de uma pessoa, além de garantir mais anos de vida. 
              Então, acompanhe as próximas dicas que farão você manter sua saúde em dia e aproveitar seus  melhores momentos e da sua família.  Confira!.</p>
 
-             <a href="#" class="btn btn-success">Acessar Site</a>
+             <a href="https://mag.com.br/blog/longevidade/artigo/cuidados-essenciais-para-manter-saude-em-dia" class="btn btn-success">Acessar Site</a>
 
              
         </div>
