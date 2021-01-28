@@ -38,7 +38,7 @@
                         <div class="form-group row">
                             <label class="control-label col-md-4 col-form-label text-md-right" id="campo">CPF</label>
                             <div class="col-sm-6">
-                            <input type="text" class="form-control form-control-user" name="cpf" maxlength="14" placeholder="Ex.: 000.000.000-00" required />
+                            <input id="cpf" type="text" class="form-control form-control-user" name="cpf" maxlength="14" placeholder="Ex.: 000.000.000-00" required />
                             </div>
                         </div>
 
