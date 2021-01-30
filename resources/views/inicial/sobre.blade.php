@@ -32,7 +32,7 @@
             <p>O software IHB Prescrição Médica Eletrônica foi criado pelo Desenvolvedor Ivan Hartwig Bissoto, no qual ganhou vida no ano de 2021.</p>
             <p>O sistema WEB surgiu de um Trabalho de Conclusão de Curso, que foi completamentamente desenvolvido somente por uma pessoa. </p>
           
-           
+    </div>       
         
 
 <div class="  barra  ">
