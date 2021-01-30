@@ -50,7 +50,7 @@
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
+                                        <strong>{{ "O email já foi cadastrado, tente outro email ou realize seu login." }}</strong>
                                     </span>
                                 @enderror
                             </div>
