@@ -18,7 +18,7 @@
            
             <p>Além disso, o sistema disponibiliza uma barra de tarefas na qual o usuário conseguirá fazer contato, ver informações sobre o site e realizar 
                 configurações para que possa ser mais produtivo ou até mesmo relatar problemas ocorrentes na ferramenta. 
-                A página inicial ofere um menu de fácil acesso ao ser clicado nos 3 traços da representação do menu que viabiliza diversas outras opções comentadas nas outras telas.</p>   
+                A página inicial oferece um menu de fácil acesso ao ser clicado nos 3 traços da representação do menu que viabiliza diversas outras opções comentadas nas outras telas.</p>   
                 <br>  
             <h4> Telas de Buscas</h4>
             <br>    
