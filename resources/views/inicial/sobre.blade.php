@@ -12,14 +12,14 @@
 
             <p>Esse software foi criado com intenção de ajudar profissionais na Área da Saúde e Administrativa. </p>
             <p>É visto que a questão das rotinas administrativas foi desenvolvida para ter uma melhor gerência de medicamentos e materiais
-               que são receitados para pacientes na realização dos exames, sem um software de controle e gestão de dados, pesquisa de relatórios, sem armazenamento das informações das prescrições médicas, e isto dificulta a agilidade e qualidade da organização. no qual alguns profissionais ainda utilizam de planilhas Excel. </p>   
-            <p>Os processos de rotinas administrativas podem trazer muitas informações importantes, para cada determinado órgão pode ser um tipo de procedimento mais complexo ou mais simples, o estudo realizado foi feito dentro de uma clínica,
-               onde os processos são realizados para gerenciamento de medicamentos e materiais utilizados na realização dos exames e diagnóstico do paciente, no qual relata os produtos (medicamentos e materiais) utilizados no exame.</p>
+               que são receitados para pacientes na realização dos exames, sem um software de controle e gestão de dados, pesquisa de relatórios, sem armazenamento das informações das prescrições médicas, e isto dificulta a agilidade e qualidade da organização. na qual alguns profissionais ainda utilizam de planilhas Excel. </p>   
+            <p>Os processos de rotinas administrativas podem trazer muitas informações importantes, para cada determinado órgão pode ser um tipo de procedimento mais complexo ou mais simples. Em uma clínica médica os processos
+                são realizados para gerenciamento de medicamentos e materiais utilizados na realização dos exames e diagnóstico do paciente, no qual relata os produtos (medicamentos e materiais) utilizados no exame.</p>
            
 
             <h4> Objetivos</h4>
 
-            <p>Auxíliar nas rotinas administrativas focado no controle e gestão de medicamentos e materiais.</p>
+            <p>Auxiliar nas rotinas administrativas focando no controle e gestão de medicamentos e materiais.</p>
 
         </div>        
   
@@ -30,16 +30,9 @@
         <span class="vc_empty_space_inner">
             <p>Atualmente muitas empresas clínicas não dispõe de um sistema para controle e gestão na utilização de prescrever uso de medicamento e material em seres-humanos ou animais, além de não possuírem um registro de dados onde pode ser consultado e alterado dados. Com a possibilidade de trazer facilidade, agilidade e economia na execução de cadastramentos e pesquisas para a realização da prescrição dos medicamentos e materiais, percebeu-se que a empresa necessita de um software onde tem a probabilidade de melhorar sua forma de trabalho.</p>
             <p>O software IHB Prescrição Médica Eletrônica foi criado pelo Desenvolvedor Ivan Hartwig Bissoto, no qual ganhou vida no ano de 2021.</p>
-            <p>O sistema WEB surgiu de um Trabalho de Conclusão de Curso, onde foi completamentamente desenvolvido somente por uma pessoa. </p>
+            <p>O sistema WEB surgiu de um Trabalho de Conclusão de Curso, que foi completamentamente desenvolvido somente por uma pessoa. </p>
           
-            <h4> Conceitos</h4>
-            
-            <p>Os processos de rotinas administrativas podem trazer muitas informações importantes, para cada determinado órgão pode ser um tipo de procedimento mais complexo ou mais simples. 
-            Desse modo, o estudo realizado efetivou-se dentro de uma clínica, onde os processos são realizados para gerenciamento de medicamentos e materiais utilizados na realização dos exames e diagnóstico do paciente, 
-            no qual relata os produtos (medicamentos e materiais) utilizados no exame, além de trazer as informações de como foi utilizado o uso dos medicamentos, qual foi a quantidades utilizadas e observações analisadas na aplicação dos medicamentos.</p> 
-            
-        </div>        
-
+           
         
 
 <div class="  barra  ">
@@ -62,7 +55,7 @@
         <h3 style="font-size: 36px;color: #0a0a0a;text-align: center;font-family:Dosis;font-style:normal" 
         class="vc_custom_heading">Valores</h3>
         <p>Proporcionar as pessoas maior qualidade de vida por meio de métodos inovadores,  trabalhando com honestidade, seriedade, responsabilidade social,
-            competência e qualidade em serviços disciplina e comprometimento</p>
+            competência e qualidade em serviços componentes e comprometimento.</p>
     </div>
 
 </div>    
