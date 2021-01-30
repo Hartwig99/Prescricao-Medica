@@ -8,7 +8,7 @@
 
       
         <div class="ajustes ">
-          <h1 >Faça sua Prescrições Médicas Eletronicamente</h1>
+          <h1 >Faça suas Prescrições Médicas Eletronicamente</h1>
 
           <img class="img-fluid px-3 px-sm-6 mt-4 mb-6" style="width: 45rem;" src="img/prescricao.png" alt="">
 
