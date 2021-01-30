@@ -14,7 +14,7 @@
       </div>           
 
     <div class="col-md-4 mb-6" >
-        <label for="idvias">Codigo*</label>
+        <label for="idvias">Código*</label>
         <input type="text" class="form-control"  name="idvias" id="idvias" required>
     </div>
 
@@ -38,7 +38,7 @@
     <button type="submit" class="btn btn-success botao" onclick="return confirm('Deseja realmente cadastrar a Via Administrativa ?');" >Cadastrar <img class="adicionar" src="/img/adicionar.png"/></button>
     </div>
 
-    <p style="color: brown">Campos com * são obrigatorios</p>
+    <p style="color: brown">Campos com * são obrigatórios</p>
 </div>
 
   </form>
