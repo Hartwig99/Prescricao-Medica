@@ -143,7 +143,7 @@
                                                   document.getElementById('logout-form').submit();">
                                       {{ __('Sair') }}
                                   </a>
-                                  <a class="dropdown-item" href="inicial/perfil">Perfil</a>
+                                  <a class="dropdown-item" href="/inicial/perfil">Perfil</a>
 
                                   <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none ">
                                       @csrf
