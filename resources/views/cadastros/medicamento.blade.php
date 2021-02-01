@@ -25,7 +25,7 @@
                 <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informações! Acessar Site Simpro</a>
             </div> 
 
-            <h1 style="display:flex; float: left; text-align: center "> Cadastro Medicamento<img class="image" src="/img/cadastro.png"/></h1> 
+            <h1 style="display:flex; float: left; text-align: center "> Cadastro de Medicamento<img class="image" src="/img/cadastro.png"/></h1> 
         
             <div class="form-row bg-success cadastro" >
 
