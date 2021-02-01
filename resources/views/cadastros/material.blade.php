@@ -24,7 +24,7 @@
             <a href="https://www.simpro.com.br/Default.aspx" class="btn btn-success"> Para mais informações! Acessar Site Simpro</a>
     </div> 
 
-        <h1 style="display:flex; float: left; text-align: center "><img  class="image" src="/img/cadastro.png"/> Cadastro Material </h1>
+        <h1 style="display:flex; float: left; text-align: center "><img  class="image" src="/img/cadastro.png"/> Cadastro de Material </h1>
         <div class="form-row bg-success cadastro">
 
             <div class="form-group col-md-6">
