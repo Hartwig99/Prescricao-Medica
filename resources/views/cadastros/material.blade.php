@@ -38,10 +38,12 @@
                 </div>
                 <div class="col-md-6 mb-6 divisor">
                     <label for="unidade">Unidade</label>
-                    <select class="custom-select "  name="unidade" id="unidade" required>
-                      <option selected disabled value="">Selecione...</option>
-                      <option>...</option>
-                    </select>
+                    <select  name="unidade" class="custom-select " id="unidade" required>     
+                        <option selected disabled value="">Selecione...</option>
+                        @foreach ($unidades as $unidade)
+                        <option value="{{$unidade->idunidades}}">{{$unidade->nome}}</option>
+                        @endforeach
+                      </select>
                   </div>
  
             <div class="form-group col-md-10 md-10 divisor">
