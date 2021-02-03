@@ -12,7 +12,7 @@
 </head>
 
 <body>
-
+@csrf
 @yield('medicamento')
 
 </body>
