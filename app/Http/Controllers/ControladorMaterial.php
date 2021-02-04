@@ -72,7 +72,7 @@ class ControladorMaterial extends Controller
      */
     public function edit($idmaterial)
     {
-        $unidades = Unidade::find($idunidades);
+      
         $materials = Material::find($idmaterial);
         if(isset($materials)){
             return view('cadastros.editarMaterial', compact('materials'));
