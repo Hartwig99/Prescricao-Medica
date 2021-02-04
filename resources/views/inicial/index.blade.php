@@ -17,7 +17,7 @@
           <p>
           Uma prescrição é uma rotina de cuidados com a saúde, implementada por um médico ou outro profissional de saúde qualificado, voltada para um paciente em específico. O termo geralmente se refere à 
           autorização por escrito de um médico para um paciente comprar um medicamento de um farmacêutico.</p>
-          <a target="_blank" rel="nofollow" href="https://undraw.co/">Verifique o manual do nosso site ou qualquer coisa entre em contato &rarr;</a>
+          <a target="_blank" rel="nofollow" href="https://prodoctor.net/blog/o-que-e-prescricao-medica/">Verifique o manual do nosso site ou qualquer coisa entre em contato &rarr;</a>
         </div>
         
         <div class="ajustes2 ">
