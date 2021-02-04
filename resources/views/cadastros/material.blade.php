@@ -41,7 +41,7 @@
                     <select  name="unidade" class="custom-select " id="unidade" required>     
                         <option selected disabled value="">Selecione...</option>
                         @foreach ($unidades as $unidade)
-                        <option value="{{$unidade->idunidades}}">{{$unidade->nome}}</option>
+                        <option value="{{$unidade->nome}}">{{$unidade->nome}}</option>
                         @endforeach
                       </select>
                   </div>
