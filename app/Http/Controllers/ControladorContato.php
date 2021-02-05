@@ -11,7 +11,7 @@ class ControladorContato extends Controller
     public function enviaContato(Request $request)
     {
 
-        Mail::to('ivanhb999@gmail.com')->send(new ContatoEmail($request));
+        Mail::to('contatoprescricao@gmail.com')->send(new ContatoEmail($request));
 
         echo" Mensagem enviada com sucesso";
         
