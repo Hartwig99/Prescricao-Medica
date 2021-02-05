@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <textarea name="messagem" class="form-control" placeholder="Mensagem de Contato*" style="width: 100%; height: 150px;"></textarea>
+                    <textarea name="mensagem" class="form-control" placeholder="Mensagem de Contato*" style="width: 100%; height: 150px;"></textarea>
                 </div>
             </div>
         </div>
